@@ -1,0 +1,545 @@
+* {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+/* box 1  (logo)   see the website */
+.navbar {
+    height: 60px;
+    background: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    /**to make the element in the center on navbar**/
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+    border: 2px solid transparent;
+}
+
+.logo {
+    background-image: url("logo.jpg");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+/* box 2 (dilevery & location) deliver box */
+
+.add-first {
+    color: #cccccc;
+    font-size: 0.85rem;
+    /* rem is given for making the website responsive */
+    margin-left: 10px;
+}
+
+.add-sec {
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+.nav-address:hover {
+    border: 1px solid white;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+/* box 3 (search box) */
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    /*to give the space the between the elements equal space  */
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.nav-search:hover {
+    border: 4px solid orange;
+    cursor: pointer;
+}
+
+.search-select {
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    background-color: #f3f3f3;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    /*male content horizontally center*/
+    align-items: center;
+    /*male content vertically center*/
+    font-size: 1.2rem;
+    background-color: rgb(225, 174, 0);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+
+
+/* box 4 sign in */
+
+span {
+    font-size: 0.7rem;
+    /*reponsiveness*/
+}
+
+.nav-sighin:hover {
+    border: 1px solid white;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.nav-Return:hover {
+    border: 1px solid white;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.nav-second {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* box 5 cart */
+.nav-cart i {
+    width: 30px;
+}
+
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.nav-cart:hover {
+    border: 2px solid white;
+    cursor: pointer;
+    padding: 8px;
+}
+
+/* panal */
+
+.panal {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    /*vertically center*/
+    justify-content: space-evenly;
+    /*equally spaced elements*/
+}
+
+.panal-all {
+    display: flex;
+}
+
+.panal-all:hover {
+    border: 1px solid white;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.panal-ops p {
+    display: inline;
+    margin-left: 15px;
+}
+
+.panal-ops {
+    width: 70%;
+    margin-left: 15px;
+}
+
+.panal-ops-hover:hover {
+    border: 1px solid white;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.panal-deals-hover:hover {
+    cursor: pointer;
+}
+
+.panal-deals-hover {
+    font-weight: 700;
+}
+
+/* Hearo section */
+
+.hero-section {
+    background-image: url(hero.jpg);
+    height: 380px;
+    background-size: cover;
+    /*for fitting of full images*/
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-massage {
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-bottom: 25px;
+}
+
+.hero-section a {
+    color: #007185;
+    text-decoration: none;
+}
+
+/* shop section */
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    /*jusrb to keep shop section 4* 4 layout*/
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+/* box1 */
+
+.box1 {
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.box1 h2 {
+    margin-left: 15px;
+}
+
+.box1 p {
+    margin-left: 15px;
+}
+
+.box1 p a {
+    color: #007185;
+    text-decoration: none;
+}
+
+.box1-img {
+    height: 330px;
+    margin: 15px;
+    background-size: cover;
+}
+
+/* box2 */
+
+.box2 {
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.box2 h2 {
+    margin-left: 15px;
+}
+
+.box2 p {
+    margin-left: 15px;
+}
+
+.box2 p a {
+    color: #007185;
+    text-decoration: none;
+}
+
+.box2-img {
+    height: 330px;
+    margin: 15px;
+    background-size: cover;
+}
+
+
+/* box3 */
+
+.box3 {
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.box3 h2 {
+    margin-left: 15px;
+}
+
+.box3 p {
+    margin-left: 15px;
+}
+
+.box3 p a {
+    color: #007185;
+    text-decoration: none;
+}
+
+.box3-img {
+    height: 330px;
+    margin: 15px;
+    background-size: cover;
+}
+
+/* box4 */
+
+.box4 {
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.box4 h2 {
+    margin-left: 15px;
+}
+
+.box4 p {
+    margin-left: 15px;
+}
+
+.box4 p a {
+    color: #007185;
+    text-decoration: none;
+}
+
+.box4-img {
+    height: 330px;
+    margin: 15px;
+    background-size: cover;
+}
+
+/* box5 */
+
+.box5 {
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.box5 h2 {
+    margin-left: 15px;
+}
+
+.box5 p {
+    margin-left: 15px;
+}
+
+.box5 p a {
+    color: #007185;
+    text-decoration: none;
+}
+
+.box5-img {
+    height: 330px;
+    margin: 15px;
+    background-size: cover;
+}
+
+/* box6 */
+
+.box6 {
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.box6 h2 {
+    margin-left: 15px;
+}
+
+.box6 p {
+    margin-left: 15px;
+}
+
+.box6 p a {
+    color: #007185;
+    text-decoration: none;
+}
+
+.box6-img {
+    height: 330px;
+    margin: 15px;
+    background-size: cover;
+}
+
+/* box7 */
+
+.box7 {
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.box7 h2 {
+    margin-left: 15px;
+}
+
+.box7 p {
+    margin-left: 15px;
+}
+
+.box7 p a {
+    color: #007185;
+    text-decoration: none;
+}
+
+.box7-img {
+    height: 330px;
+    margin: 15px;
+    background-size: cover;
+}
+
+/* box8 */
+
+.box8 {
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.box8 h2 {
+    margin-left: 15px;
+}
+
+.box8 p {
+    margin-left: 15px;
+}
+
+.box8 p a {
+    color: #007185;
+    text-decoration: none;
+}
+
+.box8-img {
+    height: 330px;
+    margin: 15px;
+    background-size: cover;
+}
+
+/* footer */
+
+footer {
+    margin: 15px;
+}
+
+.foot-panal1 {
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.foot-panal1:hover{
+    cursor: pointer;
+}
+
+.foot-panal2 {
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    margin-top: 20px;
+}
+
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+.foot-link {
+    text-decoration: none;
+}
+
+.foot-link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.foot-panal3{
+    background-color: #222f3d;
+    /* color: white; */
+    border-top: 0.5px solid white;   /*to give border from top only*/
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    background-image: url("logo.jpg");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+.foot-panal4{
+    background-color: #0f1111;
+    height: 100px;
+}
+
+.pages{
+font-size: 0.7rem;
+text-align: center;
+padding-top: 25px;
+}
+.pages a{
+    text-decoration: none;
+    color: white;
+}
+.copyright{
+    color: white;
+font-size: 0.7rem;
+text-align: center;
+padding-top: 5px;
+}
